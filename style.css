@@ -1,0 +1,29 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+form {
+	background-color: #e9e9e9;
+	margin: auto;
+	width: 30%;
+	border: 1px #dad7d7;
+	padding: 10px;
+}
+
+.personal .spirit {
+	display: inline-block;
+  	width: 60px;
+  	height: 30px;
+  	border: solid 2px #ccc;
+  	text-align: center;
+  	transition: all 0.3s;
+}
+
+.personal input[type="radio"]{
+	display: none;
+}
+
+.personal input[type="radio"]:checked + .spirit{
+	border: solid 2px black;
+}
